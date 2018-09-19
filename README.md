@@ -7,6 +7,10 @@ a simple easy NoSQL database
 * 非关系型Key-value数据库
 * 底层使用sqlite实现
 
+## 使用环境
+- java8
+- rxJava
+- rxAndroid
 
 ## 引用，添加依赖
 ```
@@ -17,9 +21,18 @@ allprojects {
 	}
 }
 dependencies {
-	implementation 'com.github.Reone:KVStorage:v.1.0.1'
+	implementation 'com.github.Reone:KVStorage:v1.0.1'
 }
 
+```
+
+## 库依赖
+```gradle
+dependencies {
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation "io.reactivex.rxjava2:rxjava:2.1.5"
+    implementation "io.reactivex.rxjava2:rxandroid:2.0.1"
+}
 ```
 
 ## 使用方式
