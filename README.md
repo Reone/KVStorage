@@ -26,7 +26,7 @@ dependencies {
 
 ```
 
-## 库依赖
+## KVStorage依赖说明
 ```gradle
 dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
@@ -67,7 +67,7 @@ KVStorage.rxGet(demoKey)
 ```java
 KVStorage.rxRemove(demoKey1...).subscribe();
 ```
-##功能接口
+## 功能接口
 - 异步保存
 - 同步保存
 - 异步获取
