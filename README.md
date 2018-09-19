@@ -4,6 +4,7 @@
 a simple easy NoSQL database
 
 * 一个简单的容易使用的数据库
+* 仅一个文件400行java代码
 * 非关系型Key-value数据库
 * 底层使用sqlite实现
 
