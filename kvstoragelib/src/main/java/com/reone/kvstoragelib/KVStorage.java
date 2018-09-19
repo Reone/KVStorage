@@ -33,7 +33,7 @@ import io.reactivex.schedulers.Schedulers;
  */
 public class KVStorage {
 
-    private static final String DATABASE_NAME = "OCJStorage";
+    private static final String DATABASE_NAME = "KVStorage";
     private static final String TABLE_CATALYST = "catalystLocalStorage";
     private static final String KEY_COLUMN = "key";
     private static final String VALUE_COLUMN = "value";
