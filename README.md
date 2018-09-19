@@ -40,12 +40,12 @@ dependencies {
 
 - 在Application中初始化
 ```java
-    KVStorage.init(context);
+KVStorage.init(context);
 ```
 
 - 保存
 ```java
-    KVStorage.rxSave(demoKey, demoValue).subscribe();
+KVStorage.rxSave(demoKey, demoValue).subscribe();
 ```
 
 - 查找
@@ -63,10 +63,13 @@ KVStorage.rxGet(demoKey)
              }
          });
 ```
-- 删除
+
+- 删除/批量删除
 ```java
-KVStorage.rxRemove(demoKey1...).subscribe();
+KVStorage.rxRemove(demoKey).subscribe();
+KVStorage.rxRemove(demoKey1,demoKey2).subscribe();
 ```
+
 ## 功能接口
 - 异步保存
 - 同步保存
